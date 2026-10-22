@@ -69,14 +69,14 @@
 ### WorkBuddy（用户级，全部会话可用）
 
 ```bash
-git clone https://github.com/<你的账号>/event-truth-analysis.git \
+git clone https://github.com/jassbin/event-truth-analysis.git \
   ~/.workbuddy/skills/event-truth-analysis
 ```
 
 Windows（PowerShell）：
 
 ```powershell
-git clone https://github.com/<你的账号>/event-truth-analysis.git "$env:USERPROFILE\.workbuddy\skills\event-truth-analysis"
+git clone https://github.com/jassbin/event-truth-analysis.git "$env:USERPROFILE\.workbuddy\skills\event-truth-analysis"
 ```
 
 安装后重开一个会话即可。技能按 `SKILL.md` 的 description 自动匹配触发，无需手动调用。
@@ -84,14 +84,14 @@ git clone https://github.com/<你的账号>/event-truth-analysis.git "$env:USERP
 ### Claude Code / 兼容 Agent Skills 的客户端
 
 ```bash
-git clone https://github.com/<你的账号>/event-truth-analysis.git \
+git clone https://github.com/jassbin/event-truth-analysis.git \
   ~/.claude/skills/event-truth-analysis
 ```
 
 ### 项目级安装（只对某个项目生效）
 
 ```bash
-git clone https://github.com/<你的账号>/event-truth-analysis.git \
+git clone https://github.com/jassbin/event-truth-analysis.git \
   <你的项目>/.workbuddy/skills/event-truth-analysis
 ```
 
